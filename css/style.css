@@ -36,14 +36,25 @@ div, p, input, button, form, span, a, ul, li {
 .wrapper {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .mood {
-	margin-top: 335px;
-	width: 414px;
+	width: 562 px;
+}
+
+.main_title {
+	font-weight: 700;
+	color: #fff;
+	font-size: 37px;
+}
+
+.main_title span {
+	font-size: 59px;
 }
 
 .text {
+	width: 414px;
 	font-family: 'Open Sans', sans-serif;
 	color: #fff;
 	font-size: 16px;
@@ -110,6 +121,7 @@ margin-top: 15px;
 }
 
 .form {
+	max-width: 340px;
 	margin-top: 60px;
 	margin-left: auto;
 	margin-right: auto;
@@ -118,7 +130,7 @@ margin-top: 15px;
 .input {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 15px;
-	width: 340px;
+	width: 100%;
 	padding: 14px 0 14px 24px;
 	margin-bottom: 15px;
 	display: block;
