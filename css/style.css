@@ -157,3 +157,57 @@ margin-top: 15px;
 	padding-bottom: 60px;
 	margin: 0;
 }
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+	.mood {
+		width: 100%
+	}
+	.text {
+		width: 75%;
+	}
+	.desktop_pic {
+		display: block;
+		width: 549px; 
+		margin: 60px auto 0;
+	}
+	.preferences {
+		flex-direction: column;
+	}
+	.preference {
+		width: auto;
+		margin-bottom: 30px;
+	}
+
+}
+
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+	.desktop_pic {
+		width: 100%;
+	}
+}
+
+
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+	.btn_move {
+		width: 100%;
+	}
+}
